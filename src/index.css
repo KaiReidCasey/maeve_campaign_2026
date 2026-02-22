@@ -87,3 +87,8 @@ button:focus-visible {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+}
