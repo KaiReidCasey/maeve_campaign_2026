@@ -2,10 +2,10 @@ import './App.css'
 
 import TopBar from './TopBar';
 import LandingMainBody from './LandingMainBody';
-import MeetMaeve from './MeetMaeveMainBody';
-import Volunteer from './VolunteerMainBody';
-import Endorsements from './EndorsementsMainBody';
-import CommunityEvents from './CommEventsMainBody';
+import MeetMaeve from './MeetMaeve';
+import Volunteer from './Volunteers';
+import Endorsements from './Endorsements';
+import CommunityEvents from './CommunityEvents';
 import Footer from './Footer';
 
 /* TODO:
