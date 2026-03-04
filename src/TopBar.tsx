@@ -2,11 +2,20 @@
 /* Top bar for overall website
   TODO:
     - Add icon
-    - Make clickable
-    - Break down into more parts or at least more readable parts if makes sense as learn more about React
+    - Make buttons clickable
  */
 function TopBar() {
-  return <div id="topBar"><div>Icon</div><div>Meet Maeve</div><div>Volunteer</div><div>Endorsments</div><div>Community Events</div></div>;
+  return <div id="topBar">
+    <div>
+      <button>Icon</button>
+      <button>Meet Maeve</button>
+      <button>Volunteer</button>
+      <button>Endorsments</button>
+      <button>Community Events</button>
+    </div>
+    <span id="topBarSpace"></span>
+    <div id="topBarQuote">Since you've made my existence political, I've become a politician.</div>
+  </div>;
 }
 
 export default TopBar;

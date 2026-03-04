@@ -1,8 +1,14 @@
+/*Styles for the App component*/
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+:root {
+   font-size: 1.25em;
 }
 
 .logo {
@@ -33,10 +39,48 @@
   }
 }
 
-.card {
-  padding: 2em;
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
 }
 
-.read-the-docs {
-  color: #888;
+#topBar {
+  display: flex;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  background-color: #213547;
+  color: #ffffff;
+  border: 2px solid rgb(96 139 168);
+}
+
+#topBar button {
+  border: none;
+  background-color: #213547;
+  color: #FFFFFF;
+  font-size: 1em;
+}
+
+#topBarSpace {
+  flex-grow: 1;
+}
+
+#footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
 }
