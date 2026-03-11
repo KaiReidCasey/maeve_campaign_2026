@@ -1,10 +1,12 @@
+import siteIcon from '../assets/react.svg'
+
 /* Langing page's main body content
  */
 function LandingMainBody() {
   return (
     <div>
       <h2>Meet the Candidate</h2>
-      <div>Headshot</div>
+      <img src={siteIcon} className="headshot" alt="Placeholder icon, future headshot"></img>
       <div>Maeve J. Dowd</div>
       <div>Pronouns: They/Them/Theirs (Shem/Shem/Shem's)</div>
       <h3>Short Bio</h3>
