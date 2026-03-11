@@ -1,3 +1,4 @@
+import siteIcon from '../assets/react.svg'
 
 /* Top bar for overall website
   TODO:
@@ -8,7 +9,7 @@ function TopBar() {
   return (
     <div id="topBar">
       <nav aria-label="Maeve Dowd Campaign Navigation">
-        <button>Icon</button>
+        <img src={siteIcon} className="siteIcon" aria-hidden="true"></img>
         <button>Meet Maeve</button>
         <button>Volunteer</button>
         <button>Endorsements</button>

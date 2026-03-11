@@ -63,6 +63,10 @@
   border: 2px solid rgb(96 139 168);
 }
 
+.siteIcon {
+  max-height: 0.75em;
+}
+
 #topBar button {
   border: none;
   background-color: inherit;
