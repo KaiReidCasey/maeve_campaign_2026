@@ -58,14 +58,14 @@
   left: 0px;
   top: 0px;
   width: 100%;
-  background-color: #213547;
+  background-color: #345a7b;
   color: #ffffff;
   border: 2px solid rgb(96 139 168);
 }
 
 #topBar button {
   border: none;
-  background-color: #213547;
+  background-color: inherit;
   color: #FFFFFF;
   font-size: 1em;
 }
