@@ -52,6 +52,10 @@
   }
 }
 
+.siteIcon {
+  max-height: 0.75em;
+}
+
 #topBar {
   display: flex;
   position: fixed;
@@ -63,8 +67,9 @@
   border: 2px solid rgb(96 139 168);
 }
 
-.siteIcon {
-  max-height: 0.75em;
+/* All top-level children of nav elements (TopBar) */
+nav > * {
+  vertical-align: middle;
 }
 
 #topBar button {
