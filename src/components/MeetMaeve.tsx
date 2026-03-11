@@ -1,5 +1,3 @@
-import { Fragment } from "react/jsx-runtime";
-
 /* Meet Maeve
   TODO:
     - Possibly break Issues into own component/s, possibly with pulling text from JSON
@@ -7,7 +5,7 @@ import { Fragment } from "react/jsx-runtime";
 
     function MeetMaeve() {
   return (
-    <Fragment>
+    <div>
       <h2>Meet Maeve</h2>
       <div>
         <h3>Bio</h3>
@@ -40,7 +38,7 @@ import { Fragment } from "react/jsx-runtime";
           </div>
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 }
 

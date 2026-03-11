@@ -14,18 +14,13 @@ import Footer from './components/Footer';
  */
 
 function App() {
-  return <div>
+  return <div id="appMain">
     <TopBar />
     <LandingMainBody />
-    <br /><br /><br />
     <MeetMaeve />
-    <br /><br /><br />
     <Volunteer />
-    <br /><br /><br />
     <Endorsements />
-    <br /><br /><br />
     <CommunityEvents />
-    <br /><br /><br />
     <Footer />
   </div>;
 }

@@ -52,6 +52,11 @@
   }
 }
 
+#appMain > * {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
 .siteIcon {
   max-height: 0.75em;
 }
@@ -62,6 +67,8 @@
   left: 0px;
   top: 0px;
   width: 100%;
+  margin-top: 0; /*important to avoid inherited values*/
+  margin-bottom: 0; /*important to avoid inherited values*/
   background-color: #345a7b;
   color: #ffffff;
   border: 2px solid rgb(96 139 168);
@@ -92,6 +99,10 @@ nav > * {
   left: 0px;
   bottom: 0px;
   width: 100%;
+  margin-top: 0; /*important to avoid inherited values*/
+  margin-bottom: 0; /*important to avoid inherited values*/
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #FFFFFF;
   text-align: center;
   position: fixed;
