@@ -1,11 +1,13 @@
+import { Fragment } from "react/jsx-runtime";
 
 /* Meet Maeve
   TODO:
     - Possibly break Issues into own component/s, possibly with pulling text from JSON
  */
-function MeetMaeve() {
+
+    function MeetMaeve() {
   return (
-    <div id="meetMaeve">
+    <Fragment>
       <h2>Meet Maeve</h2>
       <div>
         <h3>Bio</h3>
@@ -38,7 +40,7 @@ function MeetMaeve() {
           </div>
         </div>
       </div>
-    </div>
+    </Fragment>
   );
 }
 

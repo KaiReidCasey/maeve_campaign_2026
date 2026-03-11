@@ -1,3 +1,4 @@
+import { Fragment } from "react/jsx-runtime";
 
 /* Website's volunteer sign-up page
   TODO:
@@ -5,10 +6,10 @@
  */
 function Volunteer() {
   return (
-    <div id="volunteer">
+    <Fragment>
       <h2>Volunteer</h2>
       <div>Google Form Maybe</div>
-    </div>
+    </Fragment>
   );
 }
 
