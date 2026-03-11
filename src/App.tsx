@@ -1,12 +1,12 @@
 import './App.css'
 
-import TopBar from './TopBar';
-import LandingMainBody from './LandingMainBody';
-import MeetMaeve from './MeetMaeve';
-import Volunteer from './Volunteers';
-import Endorsements from './Endorsements';
-import CommunityEvents from './CommunityEvents';
-import Footer from './Footer';
+import TopBar from './components/TopBar';
+import LandingMainBody from './components/LandingMainBody';
+import MeetMaeve from './components/MeetMaeve';
+import Volunteer from './components/Volunteers';
+import Endorsements from './components/Endorsements';
+import CommunityEvents from './components/CommunityEvents';
+import Footer from './components/Footer';
 
 /* TODO:
     - Pull page content out into nested component
