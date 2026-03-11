@@ -10,7 +10,7 @@ function TopBar() {
       <button>Icon</button>
       <button>Meet Maeve</button>
       <button>Volunteer</button>
-      <button>Endorsments</button>
+      <button>Endorsements</button>
       <button>Community Events</button>
     </div>
     <span id="topBarSpace"></span>
