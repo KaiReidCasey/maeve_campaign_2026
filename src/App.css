@@ -74,6 +74,10 @@
   flex-grow: 1;
 }
 
+#topBarQuote {
+  font-style: italic;
+}
+
 #footer {
   position: fixed;
   left: 0px;
