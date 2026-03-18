@@ -1,6 +1,7 @@
 {
   "name": "maeve_campaign_2026",
   "private": false,
+  "homepage": "https://Maeve4RI.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
