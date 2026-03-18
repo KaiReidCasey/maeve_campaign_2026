@@ -86,6 +86,14 @@ nav > * {
   font-size: 1em;
 }
 
+/* Temp while buttons are links*/
+nav > * {
+  /* border: none; */
+  background-color: #FFFFFF;
+  /* color: #FFFFFF; */
+  font-size: 1em;
+}
+
 #topBarSpace {
   flex-grow: 1;
 }
