@@ -71,7 +71,7 @@
   margin-bottom: 0; /*important to avoid inherited values*/
   background-color: #345a7b;
   color: #ffffff;
-  border: 2px solid rgb(96 139 168);
+  /* border: 2px solid rgb(96 139 168); */
 }
 
 /* All top-level children of nav elements (TopBar) */
@@ -86,12 +86,35 @@ nav > * {
   font-size: 1em;
 }
 
-/* Temp while buttons are links*/
 nav > * {
-  /* border: none; */
-  background-color: #FFFFFF;
-  /* color: #FFFFFF; */
   font-size: 1em;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  padding-left:5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+nav > ul > li {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color:#b9e745;
+}
+
+.topBarLink {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.topBarLink:hover {
+  color: #c1c2c3;
 }
 
 #topBarSpace {
