@@ -11,8 +11,11 @@ function TopBar() {
     <div id="topBar">
       <nav aria-label="Maeve Dowd Campaign Navigation">
         <ul>
-        <li>
+        {/* <li>
           <Link to="/"><img src={siteIcon} className="siteIcon" aria-hidden="true"></img></Link>
+        </li> */}
+        <li>
+          <Link to="/" className="topBarLink">Home</Link>
         </li>
         <li>
           <Link to="/MeetMaeve" className="topBarLink">Meet Maeve</Link>
@@ -20,7 +23,7 @@ function TopBar() {
         <li>
           <Link to="/Volunteers" className="topBarLink">Volunteer</Link>
         </li>
-        <li><Link to="/Endorsements" className="topBarLink">Endorsements</Link></li>
+        {/* <li><Link to="/Endorsements" className="topBarLink">Endorsements</Link></li> */}
         <li><Link to="/CommunityEvents" className="topBarLink">Community Events</Link></li>
         </ul>
       </nav>
