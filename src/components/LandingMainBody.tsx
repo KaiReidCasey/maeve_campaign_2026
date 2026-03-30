@@ -1,4 +1,4 @@
-import siteIcon from '../assets/react.svg'
+import headshot from '../assets/dowd4ri_headshot_portrait_bright.jpg'
 
 /* Langing page's main body content
  */
@@ -6,7 +6,7 @@ function LandingMainBody() {
   return (
     <div>
       <h2>Meet the Candidate</h2>
-      <img src={siteIcon} className="headshot" alt="Placeholder icon, future headshot"></img>
+      <img src={headshot} className="headshot" alt="Placeholder icon, future headshot"></img>
       <div>Maeve J. Dowd</div>
       <div>Pronouns: They/Them/Theirs (Shem/Shem/Shem's)</div>
       <h3>Short Bio</h3>
