@@ -6,7 +6,7 @@ function LandingMainBody() {
   return (
     <div>
       <h2>Meet the Candidate</h2>
-      <img src={headshot} className="headshot" alt="Placeholder icon, future headshot"></img>
+      <img src={headshot} className="headshot" alt="Headshot of candidate Maeve Dowd smiling in a park"></img>
       <div>Maeve J. Dowd</div>
       <div>Pronouns: They/Them/Theirs (Shem/Shem/Shem's)</div>
       <h3>Short Bio</h3>
