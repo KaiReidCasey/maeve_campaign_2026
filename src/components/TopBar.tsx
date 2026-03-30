@@ -1,4 +1,3 @@
-import siteIcon from '../assets/react.svg'
 import { Link } from 'react-router-dom';
 
 /* Top bar for overall website
@@ -11,9 +10,6 @@ function TopBar() {
     <div id="topBar">
       <nav aria-label="Maeve Dowd Campaign Navigation">
         <ul>
-        {/* <li>
-          <Link to="/"><img src={siteIcon} className="siteIcon" aria-hidden="true"></img></Link>
-        </li> */}
         <li>
           <Link to="/" className="topBarLink">Home</Link>
         </li>
